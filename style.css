@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* =========================== Navbar ============================ */
+.navbar {
+  background-color: #fdfdc4;
+  color: black;
+  margin-bottom: 1rem;
+
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  max-height: 3rem;
+}
+
+.navbar-toggler {
+  border: 2px rgba(0, 0, 0, 0.692);
+  border-style: double;
+}
+
+.dropdown-item:hover {
+  background-color: #6a65d8;
+}
+
+/* =========================== Container ============================ */
+.container {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.jumbotron {
+  height: 40vh;
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(8, 217, 214, 0.5),
+      rgba(249, 237, 105, 0.479)
+    ),
+    url(images/library.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+/* =========================== Cards ============================ */
+.card-deck {
+  margin: 2rem 1rem;
+}
+
+.card {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.card-img-top {
+  max-width: 4rem;
+}
+
+.card-footer {
+  width: 100%;
+  background-color: #d6e6f2;
+}
+
+.text-muted {
+  font-family: "Secular One", sans-serif;
+}
+
+/* ===========================Footer ================================*/
+
+.footer {
+  margin: 8rem 0 0;
+}
+h4 {
+  margin: 0;
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 1rem;
+}
